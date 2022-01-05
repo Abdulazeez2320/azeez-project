@@ -36,14 +36,14 @@ img{
 }
 @media only screen and (min-width:481px) and (max-width:768px)
 {
-.cards{
+.perent{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
 }
 .perent>.cards {
     width: 90%;
-    text-align: end;
+    flex-direction: row;
     
 }
 
